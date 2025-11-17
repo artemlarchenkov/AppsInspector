@@ -1,4 +1,4 @@
-package com.example.testapplication.Model
+package com.example.AppInspector.Model
 
 import android.graphics.drawable.Drawable
 
