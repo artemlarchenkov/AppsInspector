@@ -1,4 +1,7 @@
 package com.example.appinspector.Activities
 
-class AppDetailsActivity {
+import android.app.Activity
+
+class AppDetailsActivity : Activity() {
+
 }
