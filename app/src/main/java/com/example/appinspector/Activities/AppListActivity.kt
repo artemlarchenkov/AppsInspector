@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.AppInspector.Adapter.AppsAdapter
 import com.example.AppInspector.Model.InstalledApp
 import com.example.appinspector.R
+import com.example.appinspector.Activities.AppDetailsActivity
 
 class AppListActivity : AppCompatActivity() {
     private lateinit var recycler: RecyclerView

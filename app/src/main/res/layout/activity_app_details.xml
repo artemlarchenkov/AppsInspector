@@ -6,7 +6,8 @@
         android:orientation="vertical"
         android:padding="20dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
 
         <TextView android:id="@+id/txtName"
             android:textSize="22sp"
