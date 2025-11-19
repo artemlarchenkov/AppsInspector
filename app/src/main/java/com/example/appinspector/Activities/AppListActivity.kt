@@ -30,11 +30,9 @@ class AppListActivity : AppCompatActivity() {
 
         recycler.adapter = adapter
     }
-
     private fun loadInstalledApps(): List<InstalledApp> {
         val pm = packageManager
         val apps = pm.getInstalledApplications(PackageManager.GET_META_DATA)
-
         return apps.mapNotNull { appInfo ->
             try {
                 InstalledApp(

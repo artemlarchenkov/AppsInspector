@@ -13,7 +13,6 @@ class AppsAdapter(
     private val items: List<InstalledApp>,
     private val onClick: (InstalledApp) -> Unit
 ) : RecyclerView.Adapter<AppsAdapter.ViewHolder>() {
-
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val icon: ImageView = view.findViewById(R.id.imgIcon)
         val title: TextView = view.findViewById(R.id.txtTitle)
